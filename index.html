@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopZone | E-Commerce Store</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                🛒 ShopZone
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">
+                            Products
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            🛒 Cart
+                            <span id="cartCount"
+                                  class="badge bg-danger">
+                                0
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Login
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-7">
+
+                    <h1>
+                        Welcome to
+                        <span>ShopZone</span>
+                    </h1>
+
+                    <p>
+                        Discover amazing products at great prices.
+                        Shop smart. Shop easy.
+                    </p>
+
+                    <a href="#products"
+                       class="btn btn-light btn-lg">
+                        Shop Now →
+                    </a>
+
+                </div>
+
+                <div class="col-md-5 text-center">
+
+                    <div class="hero-icon">
+                        🛍️
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products Section -->
+    <section id="products"
+             class="products-section">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    Our Products
+                </h2>
+
+                <p class="text-muted">
+                    Explore our latest products
+                </p>
+
+            </div>
+
+
+            <!-- Products will be loaded here -->
+            <div id="productsContainer"
+                 class="row g-4">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container text-center">
+
+            <h5>
+                🛒 ShopZone
+            </h5>
+
+            <p>
+                Your simple and reliable online store.
+            </p>
+
+            <p class="mb-0">
+                © 2026 ShopZone. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
